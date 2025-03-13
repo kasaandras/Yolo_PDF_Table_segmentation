@@ -1,0 +1,29 @@
+This guide explains how to use our YOLO-based model for detecting PDF elemeents in statistical outputs using the code provided in this repository.
+Prerequisites
+
+Python 3.6+
+Ultralytics library (pip install ultralytics)
+OpenCV (pip install opencv-python)
+NumPy (pip install numpy)
+
+Getting Started
+
+Clone this repository: https://github.com/kasaandras/Yolo_PDF_Table_segmentation/
+
+git clone https://github.com/kasaandras/Yolo_PDF_Table_segmentation/
+cd [repository-name]
+
+Install the required dependencies:
+Copypip install -r requirements.txt
+Or install them individually:
+
+pip install ultralytics opencv-python numpy
+
+Download the pre-trained model file (UCB_basic_PDF_seg.pt) included in this repository or use your own YOLO model.
+
+Using the Detection Script
+The main script for running predictions is included in this repository.
+You need to customaize output_dir, the location of the model, and data_dir  variables. 
+
+It takes some time to run this code, be patient, but once the model is in the memory predicitions will done fast. 
+You can also set up the confidence level. 
