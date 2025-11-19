@@ -19,7 +19,7 @@ Or install them individually:
 
 pip install ultralytics opencv-python numpy
 
-Download the pre-trained model file (UCB_basic_PDF_seg.pt) included in this repository or use your own YOLO model.
+Download the pre-trained model file (best.pt) included in this repository or use your own YOLO model.
 
 Using the Detection Script
 The main script for running predictions is included in this repository.
