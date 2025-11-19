@@ -9,7 +9,7 @@ output_dir = Path(r'C:\test_pdfs\test\evaluation_results')
 output_dir.mkdir(exist_ok=True, parents=True)
 
 # Load the model
-model_path = 'UCB_basic_PDF_seg.pt'
+model_path = 'best.pt'
 model = YOLO(model_path)
 
 # Get class names
